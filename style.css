@@ -1,0 +1,280 @@
+/*
+Theme Name: SourceBaan
+Description: قالب وردپرس برای سایت اشتراک سورس کد - SourceBaan WordPress Theme for Source Code Sharing
+Version: 1.0
+Author: SourceBaan Team
+Text Domain: sourcebaan
+Domain Path: /languages
+*/
+
+/* Import Vazirmatn Font */
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800&display=swap');
+
+/* Global Styles */
+* { 
+    font-family: 'Vazirmatn', sans-serif; 
+    box-sizing: border-box;
+}
+
+html {
+    direction: rtl;
+}
+
+body {
+    background: #f8fafc;
+    color: #334155;
+    margin: 0;
+    padding: 0;
+}
+
+/* Modern Card Styles */
+.modern-card { 
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e2e8f0;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.modern-card:hover { 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+/* Button Styles */
+.btn-primary {
+    background: #3b82f6;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary:hover {
+    background: #2563eb;
+    transform: translateY(-1px);
+    color: white;
+    text-decoration: none;
+}
+
+.btn-secondary {
+    background: #64748b;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-secondary:hover {
+    background: #475569;
+    transform: translateY(-1px);
+    color: white;
+    text-decoration: none;
+}
+
+.btn-success {
+    background: #10b981;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-success:hover {
+    background: #059669;
+    transform: translateY(-1px);
+    color: white;
+    text-decoration: none;
+}
+
+/* Gradient Classes */
+.gradient-primary {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.gradient-secondary {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.gradient-success {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+/* Fix points display */
+.gradient-success {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    color: white !important;
+    display: inline-block;
+    min-width: 40px;
+    text-align: center;
+}
+
+/* Animation */
+.slide-in { 
+    animation: slideIn 0.6s ease-out; 
+    will-change: transform, opacity; 
+}
+
+@keyframes slideIn { 
+    from { opacity: 0; transform: translateY(20px) translateZ(0); } 
+    to { opacity: 1; transform: translateY(0) translateZ(0); } 
+}
+
+/* Notification Styles */
+.notification { 
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    transform: translateX(400px); 
+    transition: transform 0.3s ease; 
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 350px;
+}
+
+.notification.show { 
+    transform: translateX(0); 
+}
+
+/* Header Styles */
+.site-header {
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Navigation */
+.main-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 2rem;
+}
+
+.nav-menu a {
+    color: #64748b;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+    color: #3b82f6;
+}
+
+/* Main Content */
+.main-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Footer */
+.site-footer {
+    background: #1e293b;
+    color: white;
+    padding: 2rem 0;
+    margin-top: 4rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+/* WordPress Core Styles */
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+/* Alignments */
+.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 1.5rem;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-left: 1.5rem;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Dark Mode Support */
+.dark-mode {
+    background: #0f1419;
+    color: #e2e8f0;
+}
+
+.dark-mode .modern-card {
+    background: #1e293b;
+    border-color: #334155;
+}
+
+.dark-mode .site-header {
+    background: #1e293b;
+    border-bottom: 1px solid #334155;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .main-nav {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .main-content {
+        margin: 1rem auto;
+        padding: 0 0.5rem;
+    }
+}

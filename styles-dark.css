@@ -1,0 +1,123 @@
+/* Global Dark Mode Styles for SourceBan */
+/* Apply black text color to all elements */
+
+/* Basic text elements */
+* {
+    color: black !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: black !important;
+}
+
+/* Paragraphs and spans */
+p, span, div, section, article, aside, header, footer, main {
+    color: black !important;
+}
+
+/* Links */
+a, a:hover, a:visited, a:focus, a:active {
+    color: black !important;
+}
+
+/* Lists */
+ul, ol, li {
+    color: black !important;
+}
+
+/* Tables */
+table, th, td, thead, tbody, tfoot {
+    color: black !important;
+}
+
+/* Form elements */
+input, textarea, select, option, label {
+    color: black !important;
+}
+
+/* Buttons */
+button, .btn, .button {
+    color: black !important;
+}
+
+/* Navigation elements */
+nav, .nav, .navbar, .menu {
+    color: black !important;
+}
+
+/* Cards and containers */
+.card, .container, .wrapper, .box {
+    color: black !important;
+}
+
+/* Text utilities */
+.text-white, .text-gray-100, .text-gray-200, .text-gray-300, 
+.text-gray-400, .text-gray-500, .text-gray-600, .text-gray-700, 
+.text-gray-800, .text-gray-900, .text-blue-500, .text-blue-600, 
+.text-blue-700, .text-green-500, .text-green-600, .text-red-500, 
+.text-red-600, .text-yellow-500, .text-purple-500 {
+    color: black !important;
+}
+
+/* Specific elements */
+.modern-card, .clean-card, .glass-card {
+    color: black !important;
+}
+
+/* Navigation links */
+.nav-link, .navbar-link, .menu-item {
+    color: black !important;
+}
+
+/* Form inputs and textareas */
+input[type="text"], input[type="email"], input[type="password"], 
+input[type="number"], input[type="tel"], input[type="url"], 
+textarea, select {
+    color: black !important;
+}
+
+/* Placeholder text */
+::placeholder {
+    color: black !important;
+}
+
+/* Icon elements */
+i, .icon, .fa, .fas, .far, .fab {
+    color: black !important;
+}
+
+/* Code blocks */
+pre, code, .code-block {
+    color: black !important;
+}
+
+/* Specific project classes */
+.floating-label, .btn-text, .btn-loading {
+    color: black !important;
+}
+
+/* Toast notifications */
+.toast, .alert, .notification {
+    color: black !important;
+}
+
+/* Badge and tag elements */
+.badge, .tag, .chip {
+    color: black !important;
+}
+
+/* Progress bars */
+.progress, .progress-bar {
+    color: black !important;
+}
+
+/* Modal elements */
+.modal, .popup, .overlay {
+    color: black !important;
+}
+
+/* Dropdown elements */
+.dropdown, .dropdown-menu, .dropdown-item {
+    color: black !important;
+}

@@ -1,0 +1,191 @@
+openapi: 3.0.0
+info:
+  title: SourceBaan API
+  description: API for SourceBaan - Advanced Source Code Sharing Forum
+  version: 1.0.0
+servers:
+  - url: http://localhost
+    description: Local development server
+  - url: https://sourcebaan.ir
+    description: Production server
+paths:
+  /api/auth.php:
+    get:
+      summary: Get current user information
+      operationId: getCurrentUser
+      parameters:
+        - name: action
+          in: query
+          schema:
+            type: string
+            default: me
+      responses:
+        '200':
+          description: Current user information
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok:
+                    type: boolean
+                  user:
+                    $ref: '#/components/schemas/User'
+    post:
+      summary: Authentication actions
+      operationId: authAction
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              properties:
+                action:
+                  type: string
+                  enum: [check_username, send_verification_code, verify_code, login, register]
+      responses:
+        '200':
+          description: Authentication response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ok:
+                    type: boolean
+                  message:
+                    type: string
+  /api/posts.php:
+    get:
+      summary: Get posts for a topic
+      operationId: getPosts
+      parameters:
+        - name: action
+          in: query
+          required: true
+          schema:
+            type: string
+            default: get_posts
+        - name: topicId
+          in: query
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: List of posts
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  posts:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Post'
+    post:
+      summary: Add a post
+      operationId: addPost
+      requestBody:
+        content:
+          application/x-www-form-urlencoded:
+            schema:
+              type: object
+              required:
+                - action
+                - topicId
+                - content
+              properties:
+                action:
+                  type: string
+                  default: add_post
+                topicId:
+                  type: integer
+                content:
+                  type: string
+      responses:
+        '200':
+          description: Post created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  post:
+                    $ref: '#/components/schemas/Post'
+  /api/projects.php:
+    get:
+      summary: Get projects
+      operationId: getProjects
+      responses:
+        '200':
+          description: List of projects
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  projects:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Project'
+components:
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        username:
+          type: string
+        email:
+          type: string
+        name:
+          type: string
+        role:
+          type: string
+          enum: [user, admin]
+        createdAt:
+          type: string
+          format: date-time
+    Post:
+      type: object
+      properties:
+        id:
+          type: integer
+        topicId:
+          type: integer
+        userId:
+          type: integer
+        content:
+          type: string
+        createdAt:
+          type: string
+          format: date-time
+        status:
+          type: string
+          enum: [active, deleted]
+    Project:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        description:
+          type: string
+        userId:
+          type: integer
+        status:
+          type: string
+          enum: [pending, approved, rejected]
+        createdAt:
+          type: string
+          format: date-time
+
