@@ -1,0 +1,121 @@
+{
+    "2025-09-26": {
+        "visits": 6
+    },
+    "2025-09-27": {
+        "visits": 6,
+        "product_views": 1
+    },
+    "2025-09-28": {
+        "visits": 8,
+        "product_views": 4,
+        "contacts": 1
+    },
+    "2025-09-29": {
+        "visits": 18,
+        "product_views": 8,
+        "contacts": 2
+    },
+    "2025-09-30": {
+        "visits": 4,
+        "product_views": 4
+    },
+    "2025-10-01": {
+        "visits": 10,
+        "product_views": 4
+    },
+    "2025-10-02": {
+        "visits": 13,
+        "product_views": 3
+    },
+    "2025-10-03": {
+        "visits": 8,
+        "product_views": 8,
+        "contacts": 2
+    },
+    "2025-10-04": {
+        "visits": 2
+    },
+    "2025-10-05": {
+        "visits": 23,
+        "product_views": 6
+    },
+    "2025-10-06": {
+        "visits": 4,
+        "product_views": 2
+    },
+    "2025-10-07": {
+        "visits": 10,
+        "product_views": 10
+    },
+    "2025-10-08": {
+        "visits": 3
+    },
+    "2025-10-09": {
+        "visits": 15,
+        "product_views": 10,
+        "contacts": 3
+    },
+    "2025-10-10": {
+        "visits": 2
+    },
+    "2025-10-11": {
+        "visits": 5,
+        "product_views": 3
+    },
+    "2025-10-12": {
+        "visits": 2
+    },
+    "2025-10-13": {
+        "visits": 3
+    },
+    "2025-10-14": {
+        "visits": 10,
+        "product_views": 7,
+        "contacts": 2
+    },
+    "2025-10-15": {
+        "visits": 7,
+        "product_views": 2,
+        "contacts": 2
+    },
+    "2025-10-16": {
+        "visits": 12,
+        "product_views": 9
+    },
+    "2025-10-17": {
+        "visits": 6
+    },
+    "2025-10-18": {
+        "visits": 3
+    },
+    "2025-10-19": {
+        "visits": 8,
+        "product_views": 4
+    },
+    "2025-10-20": {
+        "visits": 5,
+        "product_views": 4,
+        "contacts": 1
+    },
+    "2025-10-21": {
+        "visits": 5,
+        "product_views": 3
+    },
+    "2025-10-22": {
+        "visits": 1
+    },
+    "2025-10-23": {
+        "visits": 6
+    },
+    "2025-10-24": {
+        "visits": 4,
+        "product_views": 6
+    },
+    "2025-10-25": {
+        "visits": 5
+    },
+    "2025-10-26": {
+        "visits": 1
+    }
+}

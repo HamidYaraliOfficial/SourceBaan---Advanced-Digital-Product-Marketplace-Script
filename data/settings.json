@@ -1,0 +1,17 @@
+{
+    "siteName": "SourceBaan",
+    "siteDescription": "انجمن پیشرفته سورس کد",
+    "maxUploadSize": 199999,
+    "allowedExtensions": "zip,rar,js,py,php,java,cpp,html,css,txt",
+    "registrationEnabled": true,
+    "requireApproval": true,
+    "pointsPerUpload": 50,
+    "pointsPerDownload": 2,
+    "maintenanceMode": false,
+    "updatedAt": "2025-08-31T17:39:38+00:00",
+    "0": {
+        "key": "chat_closed",
+        "value": "false",
+        "updated_at": "2025-08-31T22:25:37+00:00"
+    }
+}

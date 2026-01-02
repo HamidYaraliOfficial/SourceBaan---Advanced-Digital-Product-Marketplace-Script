@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1757238405668,
+        "title": "از همین الان شروع کن !",
+        "content": "بدون نیاز به دانش تخصصی , فقط با یک ابزار ساده وارد دنیای تست امنیت و یادگیری شوید !",
+        "type": "banner",
+        "locations": [
+            "home_header",
+            "sources_bottom",
+            "project_page"
+        ],
+        "link": "https://t.me/+o-JiSK2IMHZhMzc0",
+        "image": "https://up.20script.ir/file/35dc-IMG-0302.jpg",
+        "priority": 100,
+        "active": true,
+        "start_date": "2025-09-07",
+        "end_date": "2025-09-16",
+        "views": 2971,
+        "clicks": 143,
+        "created_at": "2025-09-07T09:46:45+00:00",
+        "updated_at": "2025-09-15T21:40:21+00:00"
+    },
+    {
+        "id": 1757943351689,
+        "title": "خدمات ما",
+        "content": "با ما بهترین خدمات مجازی را تجربه کنید",
+        "type": "banner",
+        "locations": [
+            "sources_top"
+        ],
+        "link": "https://t.me/iliya_SHOP0",
+        "image": "https://uploadkon.ir/uploads/919d15_25photo-2025-09-15-17-04-09-1-.jpg",
+        "priority": 40,
+        "active": true,
+        "start_date": "2025-09-15",
+        "end_date": "2025-09-18",
+        "views": 18,
+        "clicks": 1,
+        "created_at": "2025-09-15T13:35:51+00:00",
+        "updated_at": "2025-09-16T00:28:34+00:00"
+    }
+]

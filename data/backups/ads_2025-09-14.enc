@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1757238405668,
+        "title": "از همین الان شروع کن !",
+        "content": "بدون نیاز به دانش تخصصی , فقط با یک ابزار ساده وارد دنیای تست امنیت و یادگیری شوید !",
+        "type": "banner",
+        "locations": [
+            "home_header",
+            "sources_top",
+            "forum_top"
+        ],
+        "link": "https://t.me/+o-JiSK2IMHZhMzc0",
+        "image": "https://up.20script.ir/file/35dc-IMG-0302.jpg",
+        "priority": 100,
+        "active": true,
+        "start_date": "2025-09-07",
+        "end_date": "2025-09-16",
+        "views": 2696,
+        "clicks": 129,
+        "created_at": "2025-09-07T09:46:45+00:00",
+        "updated_at": "2025-09-14T00:01:19+00:00"
+    }
+]

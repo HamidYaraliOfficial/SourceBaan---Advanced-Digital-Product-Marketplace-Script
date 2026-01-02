@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "name": "برنامه‌نویسی عمومی",
+    "description": "بحث و گفتگو درباره موضوعات عمومی برنامه‌نویسی",
+    "icon": "fas fa-code",
+    "color": "#667eea",
+    "order": 1,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 2,
+    "name": "وب دولوپمنت",
+    "description": "HTML، CSS، JavaScript، PHP و تکنولوژی‌های وب",
+    "icon": "fas fa-globe",
+    "color": "#10b981",
+    "order": 2,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "موبایل اپلیکیشن",
+    "description": "اندروید، iOS، React Native، Flutter",
+    "icon": "fas fa-mobile-alt",
+    "color": "#f59e0b",
+    "order": 3,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "هوش مصنوعی و یادگیری ماشین",
+    "description": "AI، ML، Deep Learning، Data Science",
+    "icon": "fas fa-brain",
+    "color": "#8b5cf6",
+    "order": 4,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "امنیت سایبری",
+    "description": "امنیت اپلیکیشن، هک اخلاقی، penetration testing",
+    "icon": "fas fa-shield-alt",
+    "color": "#ef4444",
+    "order": 5,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "پایگاه داده",
+    "description": "MySQL، PostgreSQL، MongoDB، Redis",
+    "icon": "fas fa-database",
+    "color": "#06b6d4",
+    "order": 6,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "DevOps و زیرساخت",
+    "description": "Docker، Kubernetes، CI/CD، Cloud Computing",
+    "icon": "fas fa-cogs",
+    "color": "#84cc16",
+    "order": 7,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "کسب و کار و فریلنسری",
+    "description": "مشاوره فریلنسری، قیمت‌گذاری، کسب مشتری",
+    "icon": "fas fa-briefcase",
+    "color": "#f97316",
+    "order": 8,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "سوال و جواب فنی",
+    "description": "سوالات فنی و رفع مشکل کدها",
+    "icon": "fas fa-question-circle",
+    "color": "#6366f1",
+    "order": 9,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "گفتگوی آزاد",
+    "description": "بحث‌های غیرفنی و گفتگوی دوستانه",
+    "icon": "fas fa-comments",
+    "color": "#ec4899",
+    "order": 10,
+    "status": "active",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]
